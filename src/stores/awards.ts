@@ -78,6 +78,6 @@ export const useAwards = create<IAwardsStore>(
       onmovedown: onMoveDown(set),
       updateAward: updateAward(set),
     }),
-    { name: 'awards' }
+    { name: 'Projects' }
   )
 );
